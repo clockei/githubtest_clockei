@@ -6,6 +6,7 @@ li {
 	list-style: none;
 }
 
+/* ヘッダー */
 .header {
 	background-color: #58b4ae;
 	height: 100px;
@@ -14,8 +15,8 @@ li {
 .header-logo {
 	font-size: 50px;
 	float: left;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 	padding-left: 40px;
 	padding-right: 50px;
 }
@@ -23,9 +24,10 @@ li {
 .header-list li {
 	font-size: 22px;
 	float: left;
-	padding: 33px 20px;
+	padding: 35px 20px;
 }
 
+/* メイン */
 .main {
 	padding: 20px 80px;
 }
@@ -34,11 +36,9 @@ li {
 	font-size: 60px;
 }
 
-.contents-item {
+.contents-item {}
 
-}
-
-
+/* フッダー */
 .footer {
 	background-color: #ffe277;
 	height: 80px;
@@ -47,7 +47,7 @@ li {
 .footer-logo {
 	font-size: 22px;
 	float: left;
-	padding: 20px;
+	padding: 25px;
 }
 
 .footer-list {
@@ -55,6 +55,4 @@ li {
 	padding-right: 20px;
 }
 
-.footer-list li {
-
-}
+.footer-list li {}
