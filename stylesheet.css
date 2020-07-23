@@ -15,10 +15,7 @@ li {
 .header-logo {
 	font-size: 50px;
 	float: left;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	padding-left: 40px;
-	padding-right: 50px;
+	padding: 15px 15px 40px 50px;
 }
 
 .header-list li {
@@ -36,7 +33,21 @@ li {
 	font-size: 60px;
 }
 
-.contents-item {}
+.contents {
+	height: 500px;
+	margin-top: 100px;
+}
+
+.section-title {
+	border-bottom: 2px solid #dee7ec;
+	font-size: 28px;
+	padding-bottom: 15px;
+	margin-bottom: 10px;
+}
+
+.contents-item {
+	float: left;
+}
 
 /* フッダー */
 .footer {
