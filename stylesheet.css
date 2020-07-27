@@ -7,9 +7,14 @@ li {
 }
 
 /* ヘッダー */
-.header {
+header {
 	background-color: #58b4ae;
 	height: 100px;
+}
+
+header a {
+	text-decoration: none;
+	color: #000000;
 }
 
 .header-logo {
@@ -25,7 +30,7 @@ li {
 }
 
 /* メイン */
-.main {
+main {
 	padding: 20px 80px;
 }
 
@@ -38,6 +43,7 @@ li {
 	margin-top: 100px;
 }
 
+
 .section-title {
 	border-bottom: 2px solid #dee7ec;
 	font-size: 28px;
@@ -47,10 +53,11 @@ li {
 
 .contents-item {
 	float: left;
+	margin-right: 20px;
 }
 
 /* フッダー */
-.footer {
+footer {
 	background-color: #ffe277;
 	height: 80px;
 }
@@ -59,6 +66,11 @@ li {
 	font-size: 22px;
 	float: left;
 	padding: 25px;
+}
+
+.footer-logo a {
+	text-decoration: none;
+	color: #000000;
 }
 
 .footer-list {
